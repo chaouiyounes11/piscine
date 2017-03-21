@@ -1,0 +1,162 @@
+@font-face
+  {
+  font-family: "surfing";
+  src: url("surfing.ttf");
+  }
+
+  @font-face
+    {
+    font-family: "american";
+    src: url("american.ttf");
+    }
+
+
+header
+  {
+  width: 100%;
+  height: 8em;
+  }
+
+img
+  {
+  float: left;
+  width: 9%;
+  height: 50%;
+  margin: 25px;
+  }
+
+  ul
+    {
+    border-top: 1px solid black;
+    }
+
+ul li
+  {
+  float: right;
+  display: inline-block;
+  }
+
+li a
+  {
+  text-decoration: none;
+  font-size: 122%;
+
+  }
+
+li
+  {
+  position: relative;
+  word-spacing: 30px;
+  margin: 55px 35px;
+  }
+  li a:visited
+    {
+    color: rgb(11, 96, 57);
+    }
+
+  li a:hover
+    {
+    text-decoration: underline;
+    }
+
+    .container
+      {
+      width: 90%;
+      margin: auto;
+      }
+
+    section figure
+      {
+      display: inline-block;
+      margin: auto;
+      }
+
+    #titre1
+      {
+      text-align: center;
+      margin: 3em 2em 3em 0;
+      font-family: american;
+      font-size: 3em;
+      color: rgb(11, 96, 57);
+      }
+
+  #piscine1
+    {
+    width: 33%;
+    border: 2px outset rgb(11, 96, 57);
+    box-shadow: 4px 6px 9px black;
+    }
+
+  #piscine1:hover
+    {
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 100px;
+    box-shadow: 4px 6px 9px black;
+    }
+
+  #piscine2
+    {
+    width: 33%;
+    border: 2px outset rgb(11, 96, 57);
+    box-shadow: 4px 6px 9px black;
+    }
+
+    #piscine2:hover
+      {
+        width: 50%;
+        margin-left: 20%;
+        border-radius: 100px;
+        box-shadow: 4px 6px 9px black;
+      }
+
+    #piscine3
+      {
+      width: 33%;
+      margin-top: 2em;
+      border: 2px outset rgb(11, 96, 57);
+      box-shadow: 4px 6px 9px black;
+      }
+
+      #piscine3:hover
+        {
+          width: 50%;
+          margin-left: 20%;
+          border-radius: 100px;
+          box-shadow: 4px 6px 9px black;
+        }
+
+    article
+      {
+      display: inline-block;
+      }
+
+      h3
+      {
+      text-align: center;
+      font-size: 1.2em;
+      }
+
+      h3 a
+        {
+        color: black;
+        text-decoration: none;
+        }
+
+      h3:visited
+        {
+        color: black;
+        }
+
+        p
+        {
+        font-family: 'Open Sans Condensed', sans-serif;
+        width: 47%;
+        font-size: 1.2em;
+        font-style: italic;
+        margin: 0 95px 0 0;
+        text-align: center;
+        float: right;
+        border-top: solid 2px rgb(11, 96, 57);
+        border-bottom: solid 2px rgb(11, 96, 57);
+        }
